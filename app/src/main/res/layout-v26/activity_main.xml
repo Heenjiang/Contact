@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/text_name"
+        android:layout_width="@dimen/name_style"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/name_style_margin_top"
+        android:autofillHints="@string/name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/text_phone_number"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_name"
+        android:autofillHints="@string/phone" />
+    <Button
+        android:id="@+id/find_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_phone_number"
+        android:layout_alignLeft="@id/text_name"
+        android:text="@string/find_button"
+        android:layout_alignStart="@id/text_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text_name"
+        android:layout_marginLeft="-63dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/name"
+        android:textSize="@dimen/size"
+        android:layout_marginStart="-63dp"
+        android:layout_alignStart="@id/text_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_name"
+        android:layout_alignStart="@id/text_name"
+        android:layout_alignLeft="@id/text_name"
+        android:layout_marginStart="-65dp"
+        android:layout_marginLeft="-65dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/phone"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/save_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_button"
+        android:layout_below="@id/text_phone_number"
+        android:layout_alignRight="@id/text_phone_number"
+        android:layout_alignEnd="@id/text_phone_number" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Contact</string>
+    <string name="save_button">save</string>
+    <string name="find_button">find</string>
+    <string name="phone">phone</string>
+    <string name="name">name</string>
+    <string name="title_activity_show_contact">ShowContact</string>
+    <string name="contactName">name:</string>
+    <string name="title_activity_main_ui">MainUI</string>
+    <string name="show_all_contacts">show all contacts</string>
+    <string name="find_or_add">find or add</string>
+</resources>

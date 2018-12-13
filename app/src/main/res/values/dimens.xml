@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="save_button">15dp</dimen>
+    <dimen name="find_button_left">100dp</dimen>
+    <dimen name="name_style">200dp</dimen>
+    <dimen name="name_style_margin_top">150dp</dimen>
+    <dimen name="size">20sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
